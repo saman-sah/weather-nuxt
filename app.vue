@@ -25,6 +25,10 @@
       }
 
     return res;
+  },{
+    watch:[
+      search
+    ]
   })
 
   const searchCity= ()=> {
